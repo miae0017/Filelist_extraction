@@ -1,3 +1,9 @@
+
+# Pre-condition
+### filelist.txt 가 폴더에 존재해야 한다.
+### filelist.txt를 생성하기 위해 CMD 관리자 모드에서 listup하고자 하는 상위 디렉토리로 이동한 후, 
+### 'dir /s /b > filelist.txt'를 실행하여 생성된 filelist.txt를 py파일이 있는 폴더로 복붙한다. 
+
 import pandas as pd
 import chardet
 from datetime import datetime
